@@ -1,7 +1,5 @@
 # CS50_Week1_C_Notes
 
-# CS50 Week 1 - C Language Notes
-
 ## Key Concepts Summary
 
 - Compiling C code (`make hello`, `./hello`)
