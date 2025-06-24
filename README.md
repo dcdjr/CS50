@@ -1,7 +1,9 @@
-# CS50 – Daniel DiPietro  
-My personal repo for Harvard’s CS50x.  
-Tracking projects, notes, and reflections from each week.
+# CS50: Harvard’s Introduction to Computer Science
 
-## Tools:
-- Language: C, Python, SQL, Scratch
-- IDE: [CS50 IDE](https://cs50.dev/)
+This repository contains my solutions and code as I work through [CS50x](https://cs50.harvard.edu/x/), Harvard’s introduction to computer science.
+
+## Contact
+
+Daniel “DJ” DiPietro  
+Schilling Scholar @ URI 2025  
+[LinkedIn](https://www.linkedin.com/in/daniel-dipietro-jr-b4326b369/)
