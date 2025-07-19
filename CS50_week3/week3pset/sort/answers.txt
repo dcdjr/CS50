@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: On sorted50000.txt, the real time for sort1 to complete is much faster than the real time for sort3 to complete, and that's because bubble sort recognizes if the list is already sorted and stops early (if optimized). Selection sort always makes the same number of comparisons, regardless of input, so its runtime is somewhat constant.
+
+sort2 uses: Merge Sort
+
+How do you know?: On random5000.txt, the real time for sort2 to complete is 0.036s, whereas sort1 and sort3 have real times of 0.137 and 0.082, respectively. This is justified by merge sort's O(n log n) time complexity, which makes it more efficient for large, unsorted datasets than bubble sort or selection sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Sort3 has similar real times regardless of whether the inputted file is sorted or not, because of the fact that the the number of steps the algorithm takes to complete is the same whether the data is sorted or not. The consistent runtime is what differentiates it from bubble sort, and its inefficiency is what differentiates it from merge sort.
