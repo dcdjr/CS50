@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="assets/JS/scripts.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Projects by Daniel DiPietro, Computer Science student at URI specializing in cybersecurity and AI.">
+	<title>Daniel DiPietro - Projects</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+	<link href="assets/CSS/styles.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100 p1">
+
+	<!-- Header -->
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top px-3 shadow-sm bg-body-tertiary">
+			<div class="container-fluid">
+				<button class="btn btn-dark" id="dark-mode-toggle" aria-label="Toggle dark mode">
+					<i id="themeIcon" class="bi bi-moon fs-5" aria-hidden="true"></i>
+				</button>
+				<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+					aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="connect.html">Connect</a></li>
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="projects.html">Projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main -->
+	<main class="flex-grow-1 mt-4 pt-4">
+		<div class="container text-center py-5">
+			<h1 class="text-center mb-3">My Projects</h1>
+			<p class="text-center lead mb-5">
+				Here are some of my projects with links to their respective GitHub repositories.
+			</p>
+
+			<div class="row g-4">
+
+				<!-- Project 1 -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm border">
+						<img src="assets/images/wip.png" class="card-img-top rounded shadow-sm"
+							alt="Preview placeholder for Finance Tracker web app" loading="lazy">
+						<div class="card-body">
+							<h5 class="card-title">Finance Tracker</h5>
+							<p class="card-text">
+								A web app that helps users track expenses and visualize spending. Built with Python, Flask, and SQL.
+							</p>
+							<!-- <a href="https://github.com/dcdjr/finance-tracker" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a> -->
+						</div>
+					</div>
+				</div>
+
+				<!-- Project 2 -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm border">
+						<img src="assets/images/code.png" class="card-img-top rounded shadow-sm"
+							alt="Screenshot of Credit.c program output" loading="lazy">
+						<div class="card-body">
+							<h5 class="card-title">Credit.c</h5>
+							<p class="card-text">
+								A C program implementing Luhn’s Algorithm to validate credit card numbers. It determines whether a number is a valid VISA, MasterCard, or AMEX based on checksum logic and number structure.
+							</p>
+							<a href="https://github.com/dcdjr/CS50/tree/main/CS50_week1/week1_pset/credit"
+								target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Project 3 -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card h-100 shadow-sm border">
+						<img src="assets/images/vr.jpg" class="card-img-top rounded shadow-sm"
+							alt="Research project on VR training in the military" loading="lazy">
+						<div class="card-body">
+							<h5 class="card-title">VR Training in the Military</h5>
+							<p class="card-text">
+								A research project with the RI Air National Guard analyzing the effectiveness of VR as a training tool compared to traditional methods. Findings highlighted VR’s potential to improve readiness, safety, and cost efficiency in military training scenarios.
+							</p>
+							<a href="https://github.com/dcdjr/VR-Training-Efficacy"
+								target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer class="text-center py-3 mt-auto shadow-sm bg-body-tertiary">
+		<p class="mb-1 small text-muted">&copy; 2025 Daniel DiPietro</p>
+		<div class="d-flex justify-content-center gap-4">
+			<a href="mailto:ddipietro8227@gmail.com" aria-label="Email">
+				<i class="bi bi-envelope fs-5 text-danger"></i>
+			</a>
+			<a href="https://github.com/dcdjr" target="_blank" rel="noopener" aria-label="GitHub">
+				<i class="bi bi-github fs-5 text-secondary"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/daniel-dipietro-jr/" target="_blank" rel="noopener" aria-label="LinkedIn">
+				<i class="bi bi-linkedin fs-5 text-primary"></i>
+			</a>
+		</div>
+	</footer>
+
+</body>
+</html>

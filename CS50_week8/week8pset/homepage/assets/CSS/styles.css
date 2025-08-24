@@ -1,0 +1,58 @@
+/* --- Typography --- */
+.p1 {
+	font-family: "Times New Roman", Times, serif;
+}
+.indent {
+	text-indent: 1.5em;
+}
+.subtext {
+	font-size: 0.85rem;
+	opacity: 0.8;
+}
+.uri {
+	color: #75B2DD;
+	font-weight: 600;
+}
+
+/* --- Images --- */
+.profile-image {
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+}
+.profile-image-about {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+}
+.qrcode {
+	max-width: 200px;
+}
+
+/* --- Navbar --- */
+.navbar-nav .nav-item {
+	display: flex;
+	align-items: center;
+}
+
+/* --- Dark Mode Toggle --- */
+#themeIcon {
+	font-size: 1.25rem;
+	width: 1.25rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	text-align: center;
+}
+#dark-mode-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.5rem;
+	transition: background-color 0.2s ease, transform 0.2s ease;
+}
+#dark-mode-toggle:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	transform: scale(1.05);
+}

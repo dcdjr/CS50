@@ -1,0 +1,24 @@
+HTML Tags Used:
+1. <!DOCTYPE html> – Tells the browser that the document is HTML5.
+2. <nav> – Used to create the navigation bar so users can move between pages easily.
+3. <header> – Wraps the top section of the site, including the navbar.
+4. <main> – Holds the main content for each page.
+5. <footer> – Contains the copyright and social/contact links at the bottom.
+6. <div> – A general-purpose container that I used throughout for layout and Bootstrap’s grid system.
+7. <img> – Displays images like my profile photo, QR code, and project previews.
+8. <p> – Used for paragraphs of text to describe myself and my projects.
+9. <h1> to <h5> – Headings for page titles, section headers, and card titles.
+10. <ul>/<li> – Used for quick fact lists on the About page.
+
+CSS Properties Used:
+1. font-family – To give text a consistent look (Times New Roman in the body).
+2. color – To highlight elements, like links or icons, with different colors.
+3. font-weight – To bold certain words (like “URI”) for emphasis.
+4. max-width – To make sure images resize nicely on smaller screens.
+5. display – To control layout, for example using flex to align navbar items.
+
+JavaScript:
+I used JavaScript to create a dark mode toggle that saves the user’s theme preference in localStorage so it stays consistent when the page is reloaded.
+
+Bootstrap:
+I used Bootstrap for the responsive grid, navbar, buttons, and icons, which made the site mobile-friendly and much easier to style without writing everything from scratch.
