@@ -25,7 +25,6 @@ Week 8 focused on the fundamentals of the web stack: how the internet works, how
 
 - **JavaScript**
   - Event listeners and DOM manipulation
-  - Template literals for cleaner code
   - Programmatic style changes and interactivity
   - Example: auto-complete search and button-controlled styling
 
@@ -68,10 +67,3 @@ DOM hierarchy:
 - [CS50 Manual](https://manual.cs50.io/)
 - [MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Bootstrap Docs](https://getbootstrap.com/docs/)
-
----
-
-## Status
-
-Completed: Week 8 – HTML, CSS, JavaScript
-Next: Week 9 – Flask and dynamic web apps.
